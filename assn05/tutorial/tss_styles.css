@@ -43,6 +43,7 @@ h2 {
 
 h1, h2 {
    font-family: Quicksand, Verdana, Geneva, sans-serif;
+   letter-spacing: 0.1em;
 }
 article#about_tss h1{
    color: white;
