@@ -74,6 +74,10 @@ aside blockquote {
 
 
 /* Navigation Styles */	
+nav> ul {
+   line-height:2em;
+}
+
 nav {
    font-size: 0.8em;
 }
