@@ -88,7 +88,9 @@ nav {
 
 
 /* List Styles */
-
+article#about_tss ul {
+   list-style-image: url(runicon.png);
+}
 article.syllabus ol {
    list-style-type: upper-roman;
 }
