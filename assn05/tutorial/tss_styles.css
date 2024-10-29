@@ -81,6 +81,11 @@ nav > ul > li > a:link, nav > ul > li > a:visited {
    text-decoration: none;
 }
 
+nav > ul > li > a:hover, nav > ul > li > a:active {
+   color: rgb(255, 64, 255);
+   text-decoration: underline;
+}
+
 nav> ul {
    line-height:2em;
    list-style-type: none;
