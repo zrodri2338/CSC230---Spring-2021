@@ -62,8 +62,24 @@ article.syllabus h1, article.syllabus h2 {
 
 
 /* Aside and Blockquote Styles */
+
+aside blockquote::before {
+   content: open-quote;
+   font-family: 'Times New Roman' , Times, serif;
+   font-size: 1.6em;
+   font-weight: bold;
+}
+
+aside blockquote::after {
+   content: close-quote;
+   font-family: 'Times New Roman' , Times, serif;
+   font-size: 1.6em;
+   font-weight: bold;
+}
+
 aside {
    font-size: 0.8em;
+   quotes: "\201C" "\201D";
 }
 
 aside blockquote {
