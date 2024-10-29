@@ -76,6 +76,11 @@ aside blockquote {
 
 /* Navigation Styles */	
 
+nav > ul > li > a:link, nav > ul > li > a:visited {
+   color: rgb(151, 151, 151);
+   text-decoration: none;
+}
+
 nav> ul {
    line-height:2em;
    list-style-type: none;
