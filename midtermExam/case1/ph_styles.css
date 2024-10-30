@@ -71,6 +71,12 @@ nav a {
    padding: 10px 0;
 }
 
+nav a:link,
+nav a:visited {
+    color: white;
+    text-decoration: none;
+    background-color: hsla(0, 0%, 42%, 0.4);
+}
 
 
 /* Section Styles */
