@@ -23,7 +23,10 @@ body {
 
 /* Body Header Styles */
 
-
+body > header > img {
+   display: block;
+   width: 100%;
+}
 
 
 /* Horizontal Navigation Styles */
