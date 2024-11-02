@@ -27,6 +27,7 @@ body > header {
 }
 
 body > article {grid-area: intro;}
+body > aside {grid-area: faq;}
 
 /* Grid Columns Styles */
 
