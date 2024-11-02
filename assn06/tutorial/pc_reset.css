@@ -15,7 +15,9 @@
 
 /* Structural Styles */
 
-
+article, aside, figcaption, figure, footer, header, main, nav, section {
+   display: block;
+}
 
 
 /* Typographic Styles */
