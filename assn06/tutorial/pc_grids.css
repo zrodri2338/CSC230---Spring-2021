@@ -15,8 +15,9 @@
 
 /* Grid Rows Styles */
 
-
-
+body {
+   display: grid;
+}
 
 /* Grid Columns Styles */
 
