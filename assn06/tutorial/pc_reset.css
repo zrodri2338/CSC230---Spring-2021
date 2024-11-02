@@ -33,3 +33,11 @@ li, main, nav, ol, p, section, span, ul {
    padding: 0;
    vertical-align: baseline;
 }
+nav ul {
+   list-style: none;
+   list-style-image: none;
+}
+
+nav a {
+   text-decoration: none;
+}
