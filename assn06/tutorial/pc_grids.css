@@ -21,7 +21,9 @@ body {
 
 /* Grid Columns Styles */
 
-
+section {
+   display: grid;
+}
 
 
 /* Grid Outline Styles */
