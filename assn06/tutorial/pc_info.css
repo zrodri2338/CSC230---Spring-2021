@@ -55,7 +55,11 @@ div#info3 {
 
 /* Fourth Infographic */
 
-
+div#info4 {
+   display: block;
+   top: 510px;
+   left: 8%;
+}
 
 /* Fifth Infographic */
 
