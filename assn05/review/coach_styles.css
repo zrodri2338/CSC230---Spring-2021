@@ -57,6 +57,11 @@ nav {
    padding: 1em;
 }
 
+nav a {
+   color: #fff;
+   text-decoration: none;
+   margin: 0 1em;
+}
 
 /* Paragraph Styles */
 
