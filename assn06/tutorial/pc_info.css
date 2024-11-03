@@ -15,6 +15,7 @@
 /* Main Styles */
 
 main {
+   overflow: auto;
    position: relative;
    height: 1400px;
    width: 100%;
