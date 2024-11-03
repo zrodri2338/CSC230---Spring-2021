@@ -51,16 +51,16 @@ blockquote {
 
 /* Navigation Styles */	
 
-nav {
+nav.horizontalNavigation li {
    background-color: #333;
    color: #fff;
-   padding: 1em;
+   padding: .1em;
 }
 
-nav a {
+nav.horizontalNavigation li a {
    color: #fff;
    text-decoration: none;
-   margin: 0 1em;
+   margin: 0.1em;
 }
 
 nav a:hover {
@@ -76,7 +76,13 @@ p {
 
 /* List Styles */
 
+ul {
+   padding-left: 2em;
+}
 
+li {
+   margin-bottom: 0.5em;
+}
 
 
 
