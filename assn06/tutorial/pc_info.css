@@ -79,7 +79,11 @@ div#info6 {
 
 /* Seventh Infographic */
 
-
+div#info7 {
+   display: block;
+   top: 1000px;
+   left: 68%;
+}
 
 /* Eighth Infographic */
 
