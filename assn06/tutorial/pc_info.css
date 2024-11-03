@@ -71,7 +71,11 @@ div#info5 {
 
 /* Sixth Infographic */
 
-
+div#info {
+   display: block;
+   top: 600px;
+   left: 48%;
+}
 
 /* Seventh Infographic */
 
