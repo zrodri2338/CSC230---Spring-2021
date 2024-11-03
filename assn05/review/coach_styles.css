@@ -14,7 +14,12 @@
 
 /* Main Structural Styles */
 
-
+body {
+   font-family: 'Quicksand', sans-serif; /* Assuming you're using the Quicksand font */
+   line-height: 1.6;
+   margin: 0;
+   padding: 0;
+   background-color: #f5f5f5; /* Light grey background */
 
 
 /* Heading Styles */
