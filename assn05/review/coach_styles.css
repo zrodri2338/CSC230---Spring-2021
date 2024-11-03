@@ -57,7 +57,7 @@ nav.horizontalNavigation li {
    padding: .1em;
 }
 
-nav.horizontalNavigation li a {
+nav.horizontalNavigation a {
    color: #fff;
    text-decoration: none;
    margin: 0.1em;

@@ -30,6 +30,10 @@ body > header > img {
 	padding: 0px;
 }
 
+body > header, body > footer {
+	width: 100%;
+}
+
 body > nav {
 	width: 20%;
 	float: left;
