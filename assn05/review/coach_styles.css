@@ -12,15 +12,20 @@
 */
 
 
+   
+
+
 /* Main Structural Styles */
 
 body {
-   font-family: 'Quicksand', sans-serif;
+   font-family:  'CAC Champagne';
+   src: url('fonts/cac_champagne.ttf') format('truetype');
    line-height: 1.6;
    margin: 0;
    padding: 0;
    background-color: #f5f5f5;
 }
+
 
 /* Heading Styles */
 
@@ -58,6 +63,8 @@ nav.horizontalNavigation li {
 }
 
 nav.horizontalNavigation a {
+   font-family: 'Nobile';
+    src: url('fonts/nobile-webfont.woff') format('woff');
    color: #fff;
    text-decoration: none;
    margin: 0.1em;
