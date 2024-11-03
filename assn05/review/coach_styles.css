@@ -68,7 +68,11 @@ nav a:hover {
 }
 /* Paragraph Styles */
 
-
+p {
+   color: #666;
+   margin: 1em 0;
+   font-size: 1em;
+}
 
 /* List Styles */
 
