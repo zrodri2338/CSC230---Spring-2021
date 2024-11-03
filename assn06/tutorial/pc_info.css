@@ -12,6 +12,9 @@
 */
 
 div.infobox{display:none;}
+div.infobox {
+   position: absolute;
+}
 
 /* Main Styles */
 
