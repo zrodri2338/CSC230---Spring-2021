@@ -15,6 +15,11 @@ div.infobox{display:none;}
 div.infobox {
    position: absolute;
 }
+div#info1 {
+   display: block;
+   top: 20px;
+   left: 5%;
+}
 
 /* Main Styles */
 
