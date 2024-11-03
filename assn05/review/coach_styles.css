@@ -51,7 +51,11 @@ blockquote {
 
 /* Navigation Styles */	
 
-
+nav {
+   background-color: #333;
+   color: #fff;
+   padding: 1em;
+}
 
 
 /* Paragraph Styles */
