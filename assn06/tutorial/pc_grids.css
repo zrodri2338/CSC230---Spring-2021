@@ -40,6 +40,7 @@ section {
                         "intro faq"
                         "articles faq"
                         "footer footer";
+   grid-column-gap: 15px;
 }
 
 section > h1 {
