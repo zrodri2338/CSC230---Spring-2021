@@ -14,7 +14,11 @@
 
 /* Main Styles */
 
-
+main {
+   position: relative;
+   height: 1400px;
+   width: 100%;
+}
 
 /* Infographic Styles */
 
