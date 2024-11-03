@@ -40,7 +40,13 @@ h2 {
 }
 /* Blockquote Styles */
 
-
+blockquote {
+   font-style: italic;
+   border-left: 4px solid #ccc;
+   padding-left: 1em;
+   margin: 1em 0;
+   color: #555;
+}
 
 
 /* Navigation Styles */	
