@@ -101,6 +101,11 @@ aside:nth-of-type(odd) {
    justify-self: end;
 }
 
+aside img {
+   float: left;
+   width: 20%;
+   margin-right: 15px;
+}
 /* Footer Styles */
 
 
