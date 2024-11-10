@@ -23,8 +23,8 @@ body {
    width: 95%;
    max-width: 960px;
    min-width: 640px;
-   margin: 0 auto; /* Centers the body horizontally */
-   min-height: 100vh; /* Ensures the body is at least as tall as the viewport */
+   margin: 0 auto; 
+   min-height: 100vh; 
 }
 
 img {
@@ -34,7 +34,12 @@ img {
 body {
    display: grid;
    grid-template-columns: repeat(4, 1fr);
+}
    
+   #logo {
+      grid-column: span 3;
+      width: 100%;
+   }
 /* Row Styles */
 
 
