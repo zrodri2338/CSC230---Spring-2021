@@ -48,7 +48,11 @@ body {
 
 /* Page Header Styles */
 
-
+section img {
+    width: 50%;          
+    margin: 0 auto;      
+    display: block;      
+}
 
 
 
@@ -57,11 +61,11 @@ body {
 
 nav,
 footer {
-    grid-column: span 4; /* Spans across four columns */
+    grid-column: span 4; 
 }
 
 aside {
-    grid-column: span 2; /* Spans across two columns */
+    grid-column: span 2; 
 }
 
 nav li {
