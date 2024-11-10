@@ -64,6 +64,11 @@ aside {
     grid-column: span 2; /* Spans across two columns */
 }
 
+nav li {
+   display: block;
+   width: 12.5%;
+   float: left;
+}
 
 /* Topics Styles */
 
