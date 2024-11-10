@@ -30,6 +30,11 @@ body {
 img {
    display: block;
 }
+
+body {
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   
 /* Row Styles */
 
 
