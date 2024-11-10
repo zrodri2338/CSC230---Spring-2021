@@ -19,6 +19,13 @@ html {
    height: 100%;
 }
 
+body {
+   width: 95%;
+   max-width: 960px;
+   min-width: 640px;
+   margin: 0 auto; /* Centers the body horizontally */
+   min-height: 100vh; /* Ensures the body is at least as tall as the viewport */
+}
 
 /* Row Styles */
 
