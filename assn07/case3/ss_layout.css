@@ -139,3 +139,7 @@ a.battleMarkers {
    top: 100px;
    left: 150px;
  }
+
+ a.battleMarkers:hover + div.mapInfo {
+   display: block;
+ }
