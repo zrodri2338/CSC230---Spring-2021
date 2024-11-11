@@ -72,7 +72,19 @@ aside {
   display: block;
 }
 
+a.battleMarkers {
+   position: absolute;
+ }
 
+ #marker1 {
+   top: 50px;
+   left: 100px;
+ }
+ 
+ #marker2 {
+   top: 120px;
+   left: 200px;
+ }
 
 /* Map Information Styles */
 
