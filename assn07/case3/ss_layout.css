@@ -119,6 +119,10 @@ a.battleMarkers {
 
 .mapInfo {
    display: none;
+ }
+
+.mapInfo {
+   display: none;
    position: absolute;
    background-color: #ffffff;
    padding: 10px;
