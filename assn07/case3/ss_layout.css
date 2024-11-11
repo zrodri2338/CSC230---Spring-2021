@@ -56,6 +56,10 @@ aside {
    position: relative;
  }
 
+ #mapImage {
+   display: block;
+   width: 100%;
+ }
 
 /* Interactive Map Styles */
 
