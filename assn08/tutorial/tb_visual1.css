@@ -21,6 +21,10 @@ figure {
    width: 80%;
 }
 
+figure img {
+   display: block;
+   width: 100%;
+}
 
 /* HTML Styles */
 
