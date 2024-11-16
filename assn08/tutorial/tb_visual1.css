@@ -16,7 +16,10 @@
 
 /* Figure Box Styles */
 
-
+figure {
+   margin: 20px auto 0px;
+   width: 80%;
+}
 
 
 /* HTML Styles */
