@@ -16,7 +16,10 @@
 
 /* Transformation Styles */
 
-
+figure#figure2 {
+   transform: rotate(-40deg) scale((0.8, 0.8) translate(20px, -100px));
+   box-shadow: rgb(101, 101, 101) 10px 10px 25px;
+}
 
 /* Filter Styles */
 
