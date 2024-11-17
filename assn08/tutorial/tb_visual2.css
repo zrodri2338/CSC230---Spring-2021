@@ -40,7 +40,9 @@ figure#figure3 {
 
 /* Filter Styles */
 
-
+figure#figure1 {
+   filter: sepia(0.8);
+}
 
 
 
