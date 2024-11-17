@@ -37,7 +37,10 @@ body > header nav.tabs li:hover {
 
 /* Left Section Styles */
 
-
+section#left nav.vertical {
+   border: 1px solid rgb(20, 167, 170);
+   border-radius: 25px;
+}
 
 
 /* Center Article Styles */
