@@ -31,6 +31,10 @@ body > header nav.tabs li {
    transform: rotateX(20deg);
 }
 
+body > header nav.tabs li:hover {
+   background-color: rgb(231, 231, 231);
+}
+
 /* Left Section Styles */
 
 
