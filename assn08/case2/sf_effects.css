@@ -42,6 +42,11 @@ section#left nav.vertical {
    border-radius: 25px;
 }
 
+section#left nav.vertical h1 {
+   border-top-left-radius: 25px;
+   border-top-right-radius: 25px;
+}
+
 
 /* Center Article Styles */
 
