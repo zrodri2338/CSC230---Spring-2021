@@ -27,8 +27,9 @@ body > header nav.tabs {
 }
 
 body > header nav.tabs li {
-   perspective: 50px;
-   transform: rotateX(20deg);
+   
+   transform: perspective(50px) rotateX(20deg);
+     
 }
 
 body > header nav.tabs li:hover {
