@@ -38,4 +38,7 @@ a#navicon {
       display: block;
    }
    
+   nav.horizontal ul {
+      display: none;
+   }
 }
