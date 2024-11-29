@@ -38,6 +38,15 @@ section#main {
    flex: 3 1 361px;
 }
 
+section#topics {
+   display: flex;
+   flex-flow: row wrap;
+}
+
+section#topics article {
+   flex: 1 1 200px;
+}
+
 /* =========================
    Mobile Styles: 0 to 480px 
    =========================
