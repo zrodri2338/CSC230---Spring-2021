@@ -54,7 +54,12 @@ section#topics article {
 
 @media only screen and (max-width: 480px) {
   
-
+   aside {
+      order: 99;
+   }
+   footer {
+      order: 100;
+   }
  
 }
 
