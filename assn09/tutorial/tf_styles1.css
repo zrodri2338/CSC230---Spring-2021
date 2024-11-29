@@ -165,6 +165,10 @@ a.submenuTitle:hover+ul.submenu, ul.submenu:hover {
       line-height: 2.2em;
    }
 
+   aside {
+      display: none;
+   }
+
 }
 /* =================================
    Tablet Styles: 481px and greater
