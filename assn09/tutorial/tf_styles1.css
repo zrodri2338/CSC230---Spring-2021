@@ -201,4 +201,9 @@ a.submenuTitle:hover+ul.submenu, ul.submenu:hover {
          width: 100%;
       }
       
+      nav.horizontal::after {
+         clear:both;
+         content:"";
+         display: table;
+      }
    }
