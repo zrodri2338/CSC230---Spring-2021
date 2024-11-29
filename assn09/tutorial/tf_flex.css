@@ -65,7 +65,14 @@ section#topics article {
 
 @media only screen and (min-width: 481px) {
 
+nav.horizontal ul {
+   display: flex;
+   flex-flow: rom nowrap;
+}
 
+nav.horizontal li {
+   flex: 1 1 auto;
+}
 
 }
 
