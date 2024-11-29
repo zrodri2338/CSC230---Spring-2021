@@ -182,6 +182,8 @@ a.submenuTitle:hover+ul.submenu, ul.submenu:hover {
    }
 
    ul.submenu {
+      box-shadow: rgb(51, 51, 51) 5px 5px 15px;
+      position: absolute;
       width: 200%;
    }
 }
