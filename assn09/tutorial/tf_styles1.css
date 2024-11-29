@@ -160,6 +160,10 @@ a.submenuTitle:hover+ul.submenu, ul.submenu:hover {
    ================================
 */
 @media only screen and (max-width: 480px){
+   nav.horizontal a {
+      font-size: 1.5em;
+      line-height: 2.2em;
+   }
 
 }
 /* =================================
