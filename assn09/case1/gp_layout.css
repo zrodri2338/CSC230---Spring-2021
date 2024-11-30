@@ -114,4 +114,11 @@ body > footer {
       flex-wrap: nowrap;
       height: 40px;
   }
+
+  nav.horizontal ul {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   height: 40px;
+}
 }
