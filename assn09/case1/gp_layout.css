@@ -48,7 +48,28 @@ article {
    ============================================
 */
 
+@media screen and (max-width: 480px) {
+   body {
+       flex-direction: column;
+   }
 
+   section#sheet {
+       flex-basis: 100%;
+       flex-grow: 1;
+       flex-shrink: 0;
+   }
+
+   article {
+       flex-basis: 100%;
+       flex-grow: 1;
+       flex-shrink: 0;
+   }
+
+   nav {
+       flex-direction: column;
+       text-align: center;
+   }
+}
 
 
 /* ===================================================
