@@ -38,7 +38,10 @@ table.schedule caption {
 
 /* Row Group Styles */
 
-
+table.schedule t foot {
+   background: black;
+   color: white;
+}
 
 /* Column Group Styles */
 
