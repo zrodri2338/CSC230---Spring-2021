@@ -50,6 +50,10 @@ table.schedule tfoot {
    table.schedule thead tr {
       height: 30px;
    }
+
+   table.schedule tbody tr {
+      height: 40px;
+   }
 }
 
 /* Column Group Styles */
