@@ -15,7 +15,12 @@
 
 /* Table Styles */
 
-
+table.schedule {
+   background: white;
+   border: 10px outset rgb(153, 0, 153);
+   font-size: 0.75em;
+   width: 100%;
+}
 
 /* Table Cell Styles */
 
