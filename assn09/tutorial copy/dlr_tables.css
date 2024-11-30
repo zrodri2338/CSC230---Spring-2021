@@ -50,3 +50,10 @@ table.schedule tfoot {
 
 /* Column Group Styles */
 
+col#firstCol {
+   background: rgb(218, 210, 218);
+}
+
+col.dayCols {
+   background: rgb(255, 220, 255);
+}
