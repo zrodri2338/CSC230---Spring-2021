@@ -61,7 +61,10 @@ P {
 
 /* List Styles */
 
-
+ul {
+   list-style-type: disc;
+   margin-left: 0.5in;
+}
 
 /* Image Styles */
 
