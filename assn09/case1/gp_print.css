@@ -19,7 +19,11 @@
 
 /* Hidden Objects */
 
-
+nav,
+footer,
+article {
+    display: none;
+}
 
 
 
@@ -28,7 +32,27 @@
 /* Comic Book Sheet Styles */
 
 
+section#sheet {
+   width: 6in; /* Set the width to 6 inches */
+   margin: 0 auto; /* Center horizontally, no vertical margin */
+}
 
+/* Comic Book Panel Styles */
+img.size1 {
+   width: 5in; /* Set size1 images to 5 inches */
+}
+
+img.size2 {
+   width: 3in; /* Set size2 images to 3 inches */
+}
+
+img.size3 {
+   width: 2in; /* Set size3 images to 2 inches */
+}
+
+img.size4 {
+   width: 1.5in; /* Set size4 images to 1.5 inches */
+}
 
 
 
