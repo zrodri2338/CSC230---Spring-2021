@@ -18,6 +18,7 @@
 table.schedule {
    background: white;
    border: 10px outset rgb(153, 0, 153);
+   border-collapse: collapse;
    font-size: 0.75em;
    width: 100%;
 }
