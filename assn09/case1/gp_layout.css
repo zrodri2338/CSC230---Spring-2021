@@ -35,6 +35,11 @@ section#sheet {
    flex-basis: 301px;
 }
 
+article {
+   flex-grow: 1;
+   flex-shrink: 3;
+   flex-basis: 180px;
+}
 
 
 
