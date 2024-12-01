@@ -41,7 +41,12 @@ th {
    font-weight: normal;
  }
  
-
+ td {
+   color: white;
+   font-size: 0.9em;
+   vertical-align: top;
+ }
+ 
 
 
 
