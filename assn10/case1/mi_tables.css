@@ -31,7 +31,14 @@ table {
 
 /* Column Styles */
 
-
+col#firstCol {
+   width: 24%;
+ }
+ 
+ col.dataCols {
+   width: 19%;
+ }
+ 
 
 /* Table Header Styles */
 
