@@ -53,6 +53,11 @@ th {
    font-size: 0.9em;
    vertical-align: top;
  }
+
+ thead tr {
+   height: 60px;
+ }
+ 
  
 
 
