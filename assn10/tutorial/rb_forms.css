@@ -60,7 +60,10 @@ div.formRow > input#dineSpin {
 
 /* Form Button Styles */
 
-
+div#buttons {
+   text-align: center;
+   width: 100%;
+}
 
 /* Validation Styles */
 
