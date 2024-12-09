@@ -54,7 +54,9 @@ textarea {
 
 /* Spinner Styles */
 
-
+div.formRow > input#dineSpin {
+   flex: 0 0 50px;
+}
 
 /* Form Button Styles */
 
