@@ -18,6 +18,15 @@ form#survey {
    flex-flow: row wrap;
 }
 
+form#survey > fieldset {
+   background-color: rgb(241, 232, 181);
+   border-radius: 20px;
+   flex: 1 1 300px;
+   font-size: 0.85em;
+   padding: 10px;
+   margin: 10px
+}
+
 div.formRow {
    display: flex;
    flex-flow: row wrap;
