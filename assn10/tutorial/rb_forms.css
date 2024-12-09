@@ -73,3 +73,6 @@ input [type='submit'], input[type='reset'] {
 
 /* Validation Styles */
 
+input:focus, select:focus, textarea:focus {
+   background-color: rgb(220, 255, 220);
+}
