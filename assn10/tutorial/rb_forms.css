@@ -19,6 +19,9 @@ div.formRow {
    margin: 7px 0px;
 }
 
+div.formRow > * {
+   flex: 1 1 150px;
+}
 /* Legend Styles */
 
 
