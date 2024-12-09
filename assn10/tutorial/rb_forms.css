@@ -76,3 +76,10 @@ input [type='submit'], input[type='reset'] {
 input:focus, select:focus, textarea:focus {
    background-color: rgb(220, 255, 220);
 }
+
+input#name:focus:valid,
+input#zip:focus:valid,
+input#phone:focus:valid,
+input#mail:focus:valid {
+   background: rgb(220, 255, 220) url(rb_valid.png) bottom right/contain no-repeat;
+}
