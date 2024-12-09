@@ -55,25 +55,27 @@
       <form id="survey" Action="http://www.example.com/redball/survey" Method="post">
          <fieldset id="custInfo">
             <legend>Customer Information</legend>
-            <label for="name">Name*</label>
-            <input name="custName" id="name" type="text" />
-
+            <div class="formrow">
+               <label for="name">Name*</label>
+               <input name="custName" id="name" type="text" />
+            </div>
+            
             <label for="street">Street Address</label>
             <input name="custStreet" id="street" type="text" />
 
-            <label> for="city">City</label>
+            <label for="city">City</label>
             <input name="custCity" id="city" type="text" />
 
-            <label> for="state">State</label>
+            <label for="state">State</label>
             <input name="custState" id="state" type="state" />
 
-            <label> for="zip">Postal <code></code></label>
+            <label for="zip">Postal <code></code></label>
             <inputname="custZip" id="zip" type="text" />
 
-            <label> for="phone">Phone number</label>
+            <label for="phone">Phone number</label>
             <input name="custPhone" id="phone" type="tel" />
 
-            <label> for="mail">E-mail</label>
+            <label for="mail">E-mail</label>
             <input name="custEmail" id="mail" type="email" />
          </fieldset>
          
