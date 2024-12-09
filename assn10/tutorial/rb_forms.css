@@ -13,6 +13,11 @@
 
 /* Form Layout Styles */
 
+form#survey {
+   display: Flex;
+   flex-flow: row wrap;
+}
+
 div.formRow {
    display: flex;
    flex-flow: row wrap;
