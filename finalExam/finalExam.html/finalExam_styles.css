@@ -1,0 +1,158 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Index project
+   
+   Typographical styles for Slate and Pencil Tutoring
+   
+   Filename: sp_styles.css
+
+*/
+
+/* Reset and Base Styling */
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Poppins', sans-serif; /* Use a stylish sans-serif font */
+}
+
+/* Background and Body */
+body {
+   background: linear-gradient(to right, #1f1c2c, #928dab); /* Gradient background for a modern feel */
+   color: #ffffff; /* White text for contrast */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+   padding: 20px;
+}
+
+/* Container Styling */
+.container {
+   max-width: 900px;
+   width: 100%;
+   background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+   border-radius: 15px;
+   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+   overflow: hidden;
+   display: flex;
+   flex-direction: column;
+}
+
+/* Header Styling */
+.header {
+   text-align: center;
+   padding: 30px 20px;
+   background: rgba(255, 255, 255, 0.1);
+   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.header h1 {
+   font-size: 2.5em;
+   color: #ff6b6b; /* Stylish accent color */
+   margin-bottom: 5px;
+}
+
+.header p {
+   font-size: 1em;
+   color: #f1f1f1;
+}
+
+.header img {
+   width: 150px;
+   height: auto;
+   border-radius: 50%;
+   border: 3px solid #ff6b6b;
+   margin-top: 15px;
+}
+
+/* Navigation Bar */
+.navbar {
+   display: flex;
+   justify-content: center;
+   background-color: rgba(0, 0, 0, 0.3);
+   padding: 15px;
+}
+
+.navbar a {
+   color: #ff6b6b;
+   text-decoration: none;
+   font-size: 1em;
+   margin: 0 15px;
+   padding: 8px 15px;
+   border-radius: 25px;
+   transition: background-color 0.3s, transform 0.2s;
+}
+
+.navbar a:hover {
+   background-color: #ff6b6b;
+   color: #ffffff;
+   transform: scale(1.05);
+}
+
+/* Main Content Styling */
+.main-content {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+   gap: 20px;
+   padding: 30px;
+}
+
+.section-box {
+   background-color: rgba(255, 255, 255, 0.1);
+   padding: 20px;
+   border-radius: 10px;
+   text-align: center;
+   transition: transform 0.3s, box-shadow 0.3s;
+   border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.section-box:hover {
+   transform: translateY(-5px);
+   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.section-box h2 {
+   color: #ff6b6b;
+   font-size: 1.5em;
+   margin-bottom: 15px;
+}
+
+/* Links Styling */
+ul {
+   list-style: none;
+   padding: 0;
+}
+
+ul li {
+   margin: 10px 0;
+}
+
+ul li a {
+   color: #f1f1f1;
+   text-decoration: none;
+   padding: 10px 15px;
+   display: inline-block;
+   border-radius: 25px;
+   background-color: rgba(255, 255, 255, 0.2);
+   transition: background-color 0.3s;
+}
+
+ul li a:hover {
+   background-color: #ff6b6b;
+   color: #ffffff;
+}
+
+/* Footer */
+footer {
+   text-align: center;
+   padding: 15px;
+   font-size: 0.9em;
+   color: #f1f1f1;
+   background: rgba(255, 255, 255, 0.1);
+   border-top: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+
