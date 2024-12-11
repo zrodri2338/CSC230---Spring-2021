@@ -1,43 +1,86 @@
 @charset "utf-8";
 
 /*
-   New Perspectives on HTML5 and CSS3, 7th Edition
-   Index Project
-   
-   Layout styles for Slate and Pencil Tutoring
-   Author: Zulisa Rodriguez
-   Date:   11/10/2024
-   
-   Filename: sp_layout.css
-
+<!-- 
+Author: Zulisa Rodriguez
+Date: 12/09/2024
+Required Files: finalExam.htm, finalExam.css, and all assets in the images folder
+Description: Final project showcasing a professional design with HTML5 and CSS
+-->
 */
 
-/* Layout for Main Container */
-.container {
-   display: flex;
-   flex-direction: column;
-   border: 1px solid rgba(255, 255, 255, 0.3); /* Light border for structure */
-   margin-top: 20px;
+/* Layout for Page */
+
+/* Wrapper for Navigation and Section */
+.content-wrapper {
+   display: flex; /* Flexbox for side-by-side layout */
+   gap: 20px; /* Space between nav and section */
+   margin: 20px auto; /* Center the wrapper */
+   width: 85%; /* Optional: Control overall width */
 }
 
-/* Header and Profile Section */
-.header, .main-content, footer {
-   padding: 20px;
-}
-
-/* Main Content Grid */
-.main-content {
-   display: grid;
-   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-   gap: 20px;
-   padding: 20px;
-}
-
-/* Section Layout */
-.section-box {
+/* Navigation */
+nav {
+   background-color: #ffcccc; /* Light red background */
+   width: 25%; /* Fixed width for nav */
    padding: 15px;
-   border: 1px solid rgba(255, 255, 255, 0.3); /* Light border for sections */
-   background: rgba(0, 0, 0, 0.2); /* Slightly transparent background */
-   border-radius: 10px;
+   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+   border-radius: 5px; /* Rounded corners */
+}
+
+nav ul {
+   list-style-type: none;
+   padding: 0;
+   margin: 0;
+}
+
+nav li {
+   margin: 10px 0;
+}
+
+nav a {
+   text-decoration: none;
+   color: #cc0000; /* Dark red text */
+   font-weight: bold;
+}
+
+nav a:hover {
+   color: #990000; /* Darker red on hover */
+}
+
+/* Section */
+section {
+   background-color: #f0f0f0; /* Light background */
+   width: 75%; /* Take up remaining space */
+   padding: 15px;
+   border-radius: 5px;
+   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+}
+
+/* Table Styling */
+table {
+   width: 100%; /* Table fits within the section */
+   border-collapse: collapse; /* Remove gaps between cells */
+   margin-top: 15px;
+}
+
+table th, table td {
+   border: 1px solid #ddd; /* Light border */
+   padding: 10px;
+   text-align: left;
+}
+
+table th {
+   background-color: #d3d3d3; /* Light gray header */
+   text-align: center;
+   font-weight: bold;
+}
+
+tbody tr:nth-child(odd) {
+   background-color: #f9f9f9; /* Light banded rows */
+}
+
+tbody tr:nth-child(even) {
+   background-color: #ffffff;
 }
 

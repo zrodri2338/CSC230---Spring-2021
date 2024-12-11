@@ -16,75 +16,113 @@ Description: Final project showcasing a professional design with HTML5 and CSS
     <title>My personal web page for class CSC230-Web Design</title>
     <link href="finalExam_styles.css" rel="stylesheet" />
     <link href="finalExam_layout.css" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    
 </head>
 
 <body>
-    <div class="container">
-        
-        <!-- Header Section -->
-        <header class="header">
-            <h1>Zulisa Rodriguez</h1>
-            <p>Bachelor in Information Technology</p>
-            <p>Years until graduation: 2</p>
-            <p>Email: zcru3705@gmail.com</p>
-            <img src="Zulisa.jpg" alt="Profile Picture of Zulisa Rodriguez" style="width:150px; height:auto; border-radius:50%; border:3px solid #ff6b6b;" />
-        </header>
+    <header>
+        <h1>Zulisa Rodriguez</h1>
+        <h3>Bachelor in Information Technology</h3>
+        <p>Spring 2023</p>
+        <img src="Zulisa.jpg" alt="Look at me!" style="width: 150px; height: auto; float: top-right;">
+        <img src="sullivan university.png" alt="University Logo" style="float: right">
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#aboutMe">About Me</a></li>
+            <li><a href="#assignments">Assignments</a></li>
+            <li><a href="#midtermExam">Midterm Exam</a></li>
+            <li><a href="#finalExam">Final Exam</a></li>
+            <li><a href="#links">Links</a></li>
+        </ul>
+    </nav>
+    <section>
+        <table>
+        <article id="aboutMe">
+            <h1>About Me</h1>
+            <tr>Zulisa Rodriguez is a dedicated third-year Information Technology student 
+                pursuing a Bachelor's degree studying a Website Design class. 
+                Balancing academics and family life as a proud parent of three, 
+                Zulisa is driven by a passion for technology and a vision for the future. 
+                Her career aspirations include leveraging her IT expertise to contribute to 
+                government technology initiatives, where she aims to make a meaningful impact 
+                in the field.
+            </tr>
+        </article>
+        <article id="assignments">
+            <h1>Assignments</h1>
+                    <th colspan="3">Week 1</th>
+                    <tr>
+                        <td>Research Web Development as a Career</td>
+                        <td>Create a GitHub Account</td>
+                    </tr>
+                    <th colspan="3">Week 2</th>
+                    <tr>
+                        <td>Storing file/folders</td>
+                        <td><a href="Week2_CT/ct_about.html">Curbside Thai</a>: HTML tutorial exploring restaurant menus</td>
+                    </tr>
+                    <th colspan="3">Week 3</th>
+                    <tr>
+                        <td>Build your development rig </td>
+                        <td><a href="week3_MP/mp_index.html">Mobile Panini</a>: Created a review page for food trucks</td>
+                    </tr>
+                    <th colspan="3">Week 4</th>
+                    <tr>
+                        <td>Using GitHub to Host My Pages</td>
+                        <td><a href="Week4_JTS/jtc_index.html">Jedd’s Tree Service</a>: Developed a business homepage for a tree care company</td>
+                    </tr>
+                    <th colspan="3">Week 5</th>
+                    <tr>
+                        <td><a href="Week5_TSS/tss_home.html">Tri and Succeed Sports</a>: Homepage for a sports event management company</td>
+                        <td><a href="week5_ph/ph_plays.html">Philip Henslowe Classic
+                            Theatre
+                            </a>: This midterm project showcases a professional design for the final exam.</td>
+                        <td><a href="Week5_Coaches/tss_coach.html">Meet the Coaches</a>: Reviewed and designed a coaches’ profiles page.</td>
 
-        <!-- Navigation Bar -->
-        <nav class="navbar">
-            <a href="#home">Home</a>
-            <a href="#assignments">Assignments</a>
-            <a href="#useful-links">Useful Links</a>
-            <a href="#about">About</a>
-        </nav>
+                    </tr>
+                    <th colspan="3">Week 6</th>
+                    <tr>
+                        <td><a href="Week6_PC/pc_about.html">Pandaisia Chocolates</a>: Designed a product showcase for a chocolate company</td>
+                        <td>Add Your Instructor to your GitHub Repository</td>
+                    </tr>
+                    <th colspan="3">Week 7</th>
+                    <tr>
+                        <td><a href="Week7_SP/sp_home.html"> Slate & Pencil</a>: Promotional webpage for an educational tutoring service</td>
+                        <td><a href="Week7_SS/ss_dday.html">A Soldiers Scrapbook</a>: Informational page on historical World War II events</td>
+                    </tr>
+                    <th colspan="3">Week 8</th>
+                    <tr>
+                        <td><a href="Week8_TB/tb_genta.html">Tree and Book</a>: A story-driven informational page about the Komatsu family</td>
+                        <td><a href="Week8_SF/sf_torte.html">Save Your Fork</a>: A recipe page showcasing a delicious dessert</td>
+                    </tr>
+                    <th colspan="3">Week 9</th>
+                    <tr>
+                        <td><a href="Week9_TF/tf_home.html">Trusted Friends Daycare</a>: Designed a welcoming homepage for a daycare service with information on programs and contact details</td>
+                        <td><a href="Week9_GP/gp_cover.html">Golden Pulps</a>: Created a cover page for a fictional publishing company specializing in nostalgic literature and comics</td>
+                        <td><a href="Week9_DLR/dlr_evenings_txt.html">Dakota Listeners Radio</a>: Developed a radio program webpage featuring schedules and host profiles for a local station.</td>
+                    </tr>
+                    <th colspan="3">Week 10</th>
+                    <tr>
+                        <td><a href="Week10_MI/mi_pricing.html">Marlin Internet</a>: Built a pricing and services page for an internet provider targeting small businesses</td>
+                        <td><a href="Week10_RB/rb_survey.html">Red Ball Pizza</a>Designed a customer survey form to gather feedback for a pizza restaurant chain</td>
+                    </tr>
+                    <th colspan="3">Week 11</th>
+                    <tr>
+                        <td><a href="finalExam.html">Final Exam</a></td>
+                        <td>Final Exam</td>
 
-        <!-- Main Content Grid -->
-        <div class="main-content">
-            
-            <!-- Assignments Section -->
-            <section class="section-box" id="assignments">
-                <h2>Assignments</h2>
-                <ul>
-                    <li><a href="tutorial/ct_start.html">Curbside Thai</a></li>
-                    <li><a href="review/mp_index.html">Mobile Panini</a></li>
-                    <li><a href="case1 copy/jtc_index.html">Jedds Tree Care</a></li>
-                    <li><a href="review copy/tss_coach.html">Tri and Succeed Sports Coaches</a></li>
-                    <li><a href="tutorial copy/tss_home.html">Tri and Succeed Sports</a></li>
-                    <li><a href="tutorial copy 2/pc_home.html">Pandaisia Chocolates</a></li>
-                    <li><a href="case1/sp_home.html">Pencil Tutoring</a></li>
-                    <li><a href="case3/ss_dday.html">Normandy Invasion: Day 1</a></li>
-                    <li><a href="tutorial copy 3/tb_komatsu.html">Tree and Book: The Komatsu Family</a></li>
-                    <li><a href="case2/sf_torte.html">Save your Fork: Apple Bavarian Torte</a></li>
-                    <li><a href="case1 copy 2/ph_plays.html">Philip Henslowe Classic Theatre</a></li>
-                    <li><a href="case1 copy 3/gp_cover.html">Ghost of the Deep Cover Page</a>"</li>
-                    <li><a href="case1 copy 4/mi_pricing.html">Marlin Internet</a></li>
-                    <li><a href="tutorial copy 4/tf_home.html">Trusted Friends Daycare</a></li>
-                    <li><a href="tutorial copy 5/dlr_evenings_txt.html">DLR Nightly Schedule</a></li>
-                    <li><a href="tutorial copy 6/rb_survey.html">Red Ball Pizza</a></li>
-                </ul>
-            </section>
-
-            <!-- Useful Links Section -->
-            <aside class="section-box" id="useful-links">
-                <h3>Useful Links</h3>
-                <ul>
-                    <li><a href="https://github.com/zrodri2338" target="_blank">My GitHub</a></li>
-                </ul>
-            </aside>
-
-            <!-- About Page Section -->
-            <section class="section-box" id="about">
-                <h2>About This Page</h2>
-                <p>This page is part of my CSC230-Web Design class</p>
-            </section>
-
-        </div> <!-- End of Main Content Grid -->
-
-        <!-- Footer Section -->
-        <footer>
-            <p>© 2024 Zulisa Rodriguez. All Rights Reserved.</p>
-        </footer>
-    </div> <!-- End of Container -->
+                    </tr>
+            </table>
+        </article>
+        <article id="links">
+            <h1>Links</h1>
+            <p>Check out my GitHub repository:</p>
+            <a href="https://github.com/yourusername" target="_blank">Visit my GitHub</a>
+        </article>
+    </section>
+    <footer>
+        <p>&copy; 2023 Zulisa Rodriguez</p>
+        <p>This page is submitted in consideration towards the completion of CSC230 Website Design</p>
+    </footer>
 </body>
 </html>
